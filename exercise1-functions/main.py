@@ -10,7 +10,7 @@ def sum_all(*args):
     return sum(args)
 
 def greet(name, greeting="Hello"):
-    print(f'{greeting} {name}')  
+    return f'{greeting} {name}'
 
 def factorial(n):
     if(n <= 1):
@@ -36,10 +36,10 @@ get_statistics([10,2,5])
 # greet('donald')
 # print(factorial(5))
 # print_profile(name="Alice", age=20, city="Douala")
-# build_report("stage")
-# build_report("stage", author="donald")
-# build_report("stage", status="completed")
-# build_report("stage", city='bafoussam')
-# build_report("stage", "ndem", "text")
+build_report("stage")
+build_report("stage", author="donald")
+build_report("stage", status="completed")
+build_report("stage", city='bafoussam')
+build_report("stage", "ndem", "text")
 
 

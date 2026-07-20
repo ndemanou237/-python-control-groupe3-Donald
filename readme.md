@@ -19,3 +19,6 @@ Si cette ordre n'est pas respecté alors python affichera une syntaxError par ex
 # exercice 2
 la ligne if __name__ == "__main__": permet de controler l'execution des fichier ie le bloc situer a l'interieur de cette condition ne va etre executé ssi on execute le fichier main.py
 si je fais ça le fichiers utils.py s'executera directement après importation du fichier
+
+# nb
+built in function : celle qu'on est pas obliger d'importer exemple (max,min,input,abs,print)
