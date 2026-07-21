@@ -54,3 +54,6 @@ On utilise `with open(...)` (appelé gestionnaire de contexte ou context manager
 
 2. **La libération des ressources système :**
    Laisser des fichiers ouverts inutilement consomme des descripteurs de fichiers au niveau du système d'exploitation. Cela peut provoquer des fuites de mémoire ou empêcher d'autres programmes (ou le système lui-même) de modifier ou supprimer le fichier tant que le script tourne. Le `with` garantit une gestion propre et sécurisée des ressources.
+
+# NB
+methode d'instance(__init__), methode de classe (def mamethode(cls)) , les methodes statique (@static method def math(..)) et les methodes magiques
